@@ -1,1 +1,36 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
 
+.background-section {
+    height: 400vh; /* Makes the page long enough to scroll */
+    background: url('Disaster1.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    transition: background 1s ease-in-out;
+}
+
+.quote-section {
+    position: relative;
+    top: 20vh;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    padding: 20px;
+}
+
+.quote {
+    margin: 100px 0;
+}
+
+/* Change background images as the user scrolls */
+body:nth-of-type(1) .background-section {
+    background-image: url('DisasterWater2.jpeg');
+}
+body:nth-of-type(2) .background-section {
+    background-image: url('DisasterFire3.jpeg');
+}
+body:nth-of-type(3) .background-section {
+    background-image: url('ClimateRefugees4.jpeg');
+}
