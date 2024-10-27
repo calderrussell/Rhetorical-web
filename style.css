@@ -6,7 +6,7 @@ body, html {
 
 .background-section {
     height: 400vh; /* Makes the page long enough to scroll */
-    background: url('Disaster1.jpeg') no-repeat center center fixed;
+    background: url('./Images/Disaster1.jpg') no-repeat center center fixed;
     background-size: cover;
     transition: background 1s ease-in-out;
 }
@@ -26,11 +26,11 @@ body, html {
 
 /* Change background images as the user scrolls */
 body:nth-of-type(1) .background-section {
-    background-image: url('DisasterWater2.jpeg');
+    background-image: url('./Images/Disaster2.jpg');
 }
 body:nth-of-type(2) .background-section {
-    background-image: url('DisasterFire3.jpeg');
+    background-image: url('./Images/Disaster3.jpg');
 }
 body:nth-of-type(3) .background-section {
-    background-image: url('ClimateRefugees4.jpeg');
+    background-image: url('./Images/ClimateRefugees4.jpg');
 }
