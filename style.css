@@ -13,19 +13,19 @@ body, html {
 }
 
 .section1 {
-    background-image: url('./images/Disaster1.jpg');
+    background-image: url('./Images/Disaster1.jpg');
 }
 
 .section2 {
-    background-image: url('./images/Disaster2.jpg');
+    background-image: url('./Images/Disaster2.jpg');
 }
 
 .section3 {
-    background-image: url('./images/Disaster3.jpg');
+    background-image: url('./Images/Disaster3.jpg');
 }
 
 .section4 {
-    background-image: url('./images/ClimateRefugees4.jpg');
+    background-image: url('./Images/ClimateRefugees4.jpg');
 }
 
 .quote-section {
