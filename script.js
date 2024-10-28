@@ -10,11 +10,11 @@ document.addEventListener('DOMContentLoaded', function() {
             imageUrl: './Images/Disaster2.jpg'
         },
         {
-            text: '"Human-caused climate change contributed to a +172% increase in burned areas"<br>-National Integrated Drought Information System',
+            text: '"Nuclear energy provides well-paid, long-term jobs and supports local economies with millions of dollars in state and local tax revenues."<br>-Nucear Energy Institute',
             imageUrl: './Images/Disaster3.jpg'
         },
         {
-            text: '"You\'re failing us, but young people are starting to understand your betrayal. The eyes of all future generations are upon you. And if you choose to fail us, I say we will never forgive you"',
+            text: '"They also contribute billions of dollars annually to local economies through federal and state tax revenues"<br> -Office of Nuclear Energy',
             imageUrl: './Images/ClimateRefugees4.jpg'
         },
         {
