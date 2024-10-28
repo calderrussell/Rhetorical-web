@@ -12,26 +12,6 @@ body, html {
     transition: background-image 1s ease-in-out;
 }
 
-.section1 {
-    background-image: url('./Images/Disaster1.jpg');
-}
-
-.section2 {
-    background-image: url('./Images/Disaster2.jpg');
-}
-
-.section3 {
-    background-image: url('./Images/Disaster3.jpg');
-}
-
-.section4 {
-    background-image: url('./Images/ClimateRefugees4.jpg');
-}
-
-.section5 {
-    background-image: url('./Images/GretaSpeech.jpg');
-}
-
 .quote-section {
     text-align: center;
     color: white;
@@ -44,4 +24,7 @@ body, html {
 
 .quote {
     margin: 50px 0;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
