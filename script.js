@@ -3,23 +3,23 @@ document.addEventListener('DOMContentLoaded', function() {
     const quotes = [
         {
             text: '"9 out of 10 people worldwide breathe polluted air"<br>-World Health Organization',
-            imageUrl: './Images/Disaster1.jpg'
+            imageUrl: './Images/NpSun.jpg'
         },
         {
             text: '"10 million metric tons of plastic end up in the ocean each year"<br>- UNESCO',
-            imageUrl: './Images/Disaster2.jpg'
+            imageUrl: './Images/NpLake.jpg'
         },
         {
             text: '"Nuclear energy provides well-paid, long-term jobs and supports local economies with millions of dollars in state and local tax revenues."<br>-Nucear Energy Institute',
-            imageUrl: './Images/Disaster3.jpg'
+            imageUrl: './Images/NpJobs.jpg'
         },
         {
             text: '"They also contribute billions of dollars annually to local economies through federal and state tax revenues"<br> -Office of Nuclear Energy',
-            imageUrl: './Images/ClimateRefugees4.jpg'
+            imageUrl: './Images/NpDusk.jpg'
         },
         {
             text: '"You\'re failing us, but young people are starting to understand your betrayal. The eyes of all future generations are upon you. And if you choose to fail us, I say we will never forgive you"<br>Greta Thunberg',
-            imageUrl: './Images/GretaSpeech.jpg'
+            imageUrl: './Images/NpMxPw92.jpg'
         }
     ];
 
