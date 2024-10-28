@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
             imageUrl: './Images/NpLake.jpg'
         },
         {
-            text: '"Nuclear energy provides well-paid, long-term jobs and supports local economies with millions of dollars in state and local tax revenues."<br>-Nucear Energy Institute',
+            text: ' <br><br>"Nuclear energy provides well-paid, long-term jobs and supports local economies with millions of dollars in state and local tax revenues."<br>-Nucear Energy Institute',
             imageUrl: './Images/NpJobs.jpg'
         },
         {
