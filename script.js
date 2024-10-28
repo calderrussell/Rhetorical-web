@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const quotes = [
         {
             text: '"9 out of 10 people worldwide breathe polluted air"<br>-World Health Organization',
-            imageUrl: './Images/NpSun.jpg'
+            imageUrl: './Images/NpSun.png'
         },
         {
             text: '"10 million metric tons of plastic end up in the ocean each year"<br>- UNESCO',
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             text: '"You\'re failing us, but young people are starting to understand your betrayal. The eyes of all future generations are upon you. And if you choose to fail us, I say we will never forgive you"<br>Greta Thunberg',
-            imageUrl: './Images/NpMxPw92.jpg'
+            imageUrl: './Images/NpMxPw92.png'
         }
     ];
 
