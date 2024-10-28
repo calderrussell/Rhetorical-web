@@ -3,9 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Energy Cost Calculator</title>
+    <title>Nuclear Energy Savings Calculator</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="calculator.css">
 </head>
 <body>
-    Test
+    <div class="container">
+        <header>
+            <h1>Nuclear Energy Savings Calculator</h1>
+            <p>Discover how much you could save by switching to nuclear energy</p>
+        </header>
+
+        <div class="calculator-container">
+            <div class="input-group">
+                <label>
+                    Home Size (sq ft)
+                    <span class="tooltip">
+                        <i class="fas fa-info-circle info-icon"></i>
+                        <span class="tooltip-text">Larger homes typically consume more energy for heating, cooling, and lighting</span>
+                    </span>
+                </label>
+                <div class="slider-container">
+                    <input type="range" id="homeSize" min="500" max="5000" step="100" value="2000">
+                    <span class="value-display" id="homeSizeValue">2000 sq ft</span>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label>
+                    Number of Residents
+                    <span class="tooltip">
+                        <i class="fas fa-info-circle info-icon"></i>
+                        <span class="tooltip-text">More residents typically mean higher energy usage for appliances, hot water, etc.</span>
+                    </span>
+                </label>
+                <div class="slider-container">
+                    <input type="range" id="residents" min="1" max="8" step="1" value="3">
+                    <span class="value-display" id="residentsValue">3</span>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label>
+                    Energy Usage Intensity
+                    <span class="tooltip">
+                        <i class="fas fa-info-circle info-icon"></i>
+                        <span class="tooltip-text">Consider your appliance usage, climate control habits, and overall energy consumption patterns</span>
+                    </span>
+                </label>
+                <div class="slider-container">
+                    <input type="range" id="intensity" min="1" max="5" step="1" value="3">
+                    <span class="value-display" id="intensityValue">Medium</span>
+                </div>
+            </div>
+
+            <div class="results">
+                <h2>Estimated Annual Savings</h2>
+                <div class="savings" id="savingsAmount">$0</div>
+                <p>By switching to nuclear energy</p>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
 </body>
 </html>
