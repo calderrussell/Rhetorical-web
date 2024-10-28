@@ -28,6 +28,10 @@ body, html {
     background-image: url('./Images/ClimateRefugees4.jpg');
 }
 
+.section5 {
+    background-image: url('./Images/GretaSpeech.jpg');
+}
+
 .quote-section {
     text-align: center;
     color: white;
