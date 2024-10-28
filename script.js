@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
             imageUrl: './Images/NpDusk.jpg'
         },
         {
-            text: '"You\'re failing us, but young people are starting to understand your betrayal. The eyes of all future generations are upon you. And if you choose to fail us, I say we will never forgive you"<br>Greta Thunberg',
+            text: '',
             imageUrl: './Images/NpMxPw92.png'
         }
     ];
